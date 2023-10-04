@@ -5,4 +5,10 @@
  * This program ...
 */
 
-basic.showString('Hello, World!')
+let someVariable: number = 14
+
+basic.clearScreen()
+
+input.onButtonPressed(Button.A, function() {
+  basic.showNumber(someVariable)
+})
